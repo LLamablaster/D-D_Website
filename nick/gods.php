@@ -3,17 +3,11 @@
 <head>
   <title>Sam's RPG Settings</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="../common/style.css">
-  <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>  
+  <?php include dirname(__DIR__).'/common/links.html'; ?>
 </head>
 
 <body style="background-color:#FFD7C5">
-  <a href="../kumeria/kumeria_splash.html">Kumeria</a>
-  <a href="../myrth/myrth_splash.html">Myrth</a>
-  <a href="../steigerhum/steigerhum_splash.html">Steigerhum</a>
-  <a href="../nick/gods.html">Somoria</a>
+  <?php include  dirname(__DIR__).'/common/navbar.html'; ?>
 
   <h1 class="text">The Gods</h1>
   <p class="text">
