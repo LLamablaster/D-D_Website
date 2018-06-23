@@ -15,6 +15,8 @@
       leagues of the unknown. Most peoples work together to protect the small
       claims they have staked against the wilderness.
   </p>
+  
+  <?php include  dirname(__DIR__).'/common/footer.html'; ?>
 </body>
 
 </html> 

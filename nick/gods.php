@@ -82,6 +82,7 @@
     </p>
   </div>
 
+  <?php include  dirname(__DIR__).'/common/footer.html'; ?>
 
 
 
